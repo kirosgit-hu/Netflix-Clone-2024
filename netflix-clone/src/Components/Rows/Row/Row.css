@@ -1,0 +1,35 @@
+.row-poster {
+     width: 100%;
+     object-fit: contain;
+     max-height: 100px;
+     transition: transform 450ms;
+     margin-right: 10px;
+}
+.row-posters{
+   display: flex;
+   overflow-y: hidden;
+   overflow-x: scroll; /* for wede gon move or masalef endnchil */
+   padding: 55px;
+   padding-top: 20px;
+   padding-bottom: 20px;
+   margin-left: -35px;
+   height: 25vh; /* to limit the img size */
+   
+}
+.row-posters::-webkit-scrollbar {
+    display: none;
+}
+.row-posters:hover {
+     transform: scale(1.08);
+}
+.row-posterLarge {
+    max-height: 500px;
+}
+.row-postersLarge:hover{
+     transform: scale(1.09);
+}
+.row{
+     margin-left: 50px;
+     color: white;
+ 
+}

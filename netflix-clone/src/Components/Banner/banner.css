@@ -1,7 +1,7 @@
 .banner {
     margin-top: -10vh;
     height: 110vh;
-    margin-bottom: -80px;
+    margin-bottom: -105px;
     color: white;
     object-fit: contain;
 }
@@ -33,7 +33,6 @@
      border-radius: 0.2vw;
      padding: 0.5rem 0rem;
      margin-right: 2rem;
-    outline-color: none;
      /* background-color: rgba(51, 51, 51, 0.5); */
 }
 .banner-buttop {
@@ -41,6 +40,7 @@
      width: 110px;
      height: 45px;
      margin-right: 30px;
+     border: none;
     
 }
 .banner-butt{
@@ -49,6 +49,7 @@
     height: 45px; 
     background-color: #00a6c378;
     color: #fff;
+    border: none; /* to remove the default black border  */
 
 }
 .banner-buttop:hover{
@@ -62,7 +63,7 @@ transition: all0.2s;
 }
 
 .banner-fadeBottom {
-     height: 8vh;
+     height: 18vh;
      background-image: linear-gradient(
         180deg,
         transparent,
